@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+  
+    <div class="container w-75 ">
+        <div class="header-one mx-auto ">
+            <h1 class="text-center fw-bold fs-1 p-3 ">Quiz App </h1>
+        </div>
+          <!-- section one -->
+        <div class="row w-75 mt-4 mx-auto d-block " id="quizOptions">
+            <div class="form-floating">
+                <select class="form-select " id="categoryMenu" aria-label="Floating label select example">
+                    <option selected>Choose Category</option>
+                    <option value="9">General knowledge</option>
+                    <option value="27">Animals</option>
+                    <option value="19">Science: Mathematics</option>
+                    <option value="18">Science: Computers</option>
+                    <option value="22">Geography</option>
+                </select>
+                <label for="categoryMenu" class="ms-2 fs-6">Choose Category </label>
+            </div>
+
+            <div class="form-floating my-4">
+                <select class="form-select " id="difficultyOptions" aria-label="Floating label select example">
+                    <option selected value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+                <label for="difficultyOptions" class="ms-2 fs-6">Choose Difficulty Level</label>
+            </div>
+
+            <div class="form-floating">
+                <input type="number " class="form-control" id="questionsNumber" placeholder="Number Of Questions">
+                <label for="questionsNumber" class="ms-2 fs-6">Number of Questions</label>
+            </div>
+            <button class="btn btn-start mx-auto mt-3">Start quiz</button>
+        </div>
+        <!-- section two -->
+        <div class="row  w-75 mx-auto d-none rounded-2" id="myData">
+           
+        </div>
+        <!-- section three -->
+    <div id="finish" class="d-none">
+       
+
+  
+    </div>
+
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

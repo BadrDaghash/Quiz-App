@@ -1,0 +1,29 @@
+body { 
+    background-color: 	#800080;
+}
+
+.header-one { 
+    width: 250px;
+    background-color: white ;
+    margin-top : 20% ; 
+    border-radius: 5px;
+}
+.btn-start{
+    background-color:#660080 ;
+color: white;}
+.again{
+    width: 130px ; 
+     
+}
+.choices{
+    background-color: #660080;
+    color: white;
+width: 150px;
+
+}
+.correct{
+    background-color: green;
+}
+.wrong{
+    background-color: red;
+}
